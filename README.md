@@ -22,6 +22,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Install API
+
 To install API open api/db.php and replace YourHost, YourUser, YourPassword & YourDBName with your database credentials
 
 ## Further help
