@@ -5,7 +5,7 @@
         public function getConnection(){
             $this->db = null;
             try{
-                $this->db = new mysqli('localhost','acme_user','Lampclock3','acmebroker');
+                $this->db = new mysqli('YourHost','YourUser','YourPassword','YourDBName');
             }catch(Exception $e){
                 echo "Database could not be connected: " . $e->getMessage();
             }
